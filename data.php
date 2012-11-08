@@ -1,6 +1,6 @@
 <?php
 
-$connection = mysql_connect("localhost","root","Skater777");
+$connection = mysql_connect("localhost","root","password");
 mysql_select_db("map", $connection);
 
 $action = @$_GET['mode'];
